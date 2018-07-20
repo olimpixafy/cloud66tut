@@ -1,0 +1,8 @@
+staging:
+    first_thing: 
+      - command: set > /home/olimjon2/envrs.txt
+        target: rails
+        run_on: single_server
+        apply_during: build_only
+        sudo: true
+
